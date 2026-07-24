@@ -1,0 +1,25 @@
+body {
+    text-align: center;
+    background-color: blue;
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    align-content: center;
+    min-height: 100vh; /* Forces the body to fill the entire screen height */
+    margin: 0;         /* Removes default browser spacing around the page */
+}
+
+a:link {
+  color: white;
+}
+
+img{
+    width: 600px;
+}
+
+.navbar {
+  position: absolute;       /* Detaches element from normal flow */
+  top: 0;                   /* Forces position right at the top line */
+  text-align: left;
+  width: 100%;
+  margin: 20px;
+}
